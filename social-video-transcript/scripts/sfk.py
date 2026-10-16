@@ -7,7 +7,7 @@
   sfk.py specs [platform] [format]
 
 Uses the free public API of https://shortformkit.com (no key, fair-use limit of about 30 requests per minute per IP).
-Works with public Instagram, TikTok, YouTube, X, Facebook, Pinterest and Threads posts.
+Works with public Instagram, TikTok, YouTube, X, Facebook and Pinterest posts.
 """
 import argparse, io, json, sys, time, urllib.error, urllib.request, zipfile
 
