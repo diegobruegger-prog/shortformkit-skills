@@ -15,7 +15,7 @@ git clone https://github.com/diegobruegger-prog/shortformkit-skills.git
 cp -r shortformkit-skills/social-video-transcript ~/.claude/skills/
 ```
 
-**Claude.ai**: Settings, Capabilities, Skills, upload the `social-video-transcript` folder as a ZIP. The skill calls shortformkit.com, so code execution needs network access to that domain.
+**Claude.ai and Claude Desktop**: zip the `social-video-transcript` folder, then Customize, Skills, +, Create skill, Upload a skill. The skill calls shortformkit.com, so code execution needs network access to that domain.
 
 Then just paste a link: "What's the hook of this Reel?", "Give me German subtitles for this YouTube clip", "How long can a TikTok be?".
 
